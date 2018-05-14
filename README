@@ -1,0 +1,24 @@
+
+VectorPU is a light-weight vector abstraction on CUDA-based heterogeneous system,
+it allows you to write code without worrying about data transfer,
+and it does so without the need of compiler support.
+The automatic data transfer feature guarantees no redundant data transfer,
+also the overhead of VectorPU is very low and unnoticeable.
+
+The software was tested under gcc 4.9.3, CUDA 7.5 and Ubuntu 16.04.2 LTS
+
+This software is a prototype used in the following paper:
+
+Lu Li, Christoph Kessler. VectorPU: A Generic and Efficient Data-container and
+Component Model for Transparent Data Transfer on GPU-based Heterogeneous
+Systems. In Proc. 8th Workshop on Parallel Programming and Run-Time Management
+Techniques for Many-core Architectures and 6th Workshop on Design Tools and
+Architectures for Multicore Embedded Computing Platforms (PARMA-DITAM'17). ACM,
+2017.
+
+The documentation of this software is very limited, more details are described
+in the above paper.
+
+The software is under LGPLv3 licence.
+
+Contact: Lu Li, explore.leo@gmail.com or lu.li@liu.se
